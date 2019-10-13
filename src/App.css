@@ -1,0 +1,153 @@
+@import url(https://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+* { -webkit-font-smoothing:antialiased; -moz-font-smoothing:antialiased; -ms-font-smoothing:antialiased; -o-font-smoothing:antialiased; }
+
+body {
+  margin:0px;
+  padding:0px;
+	font-family: "Open Sans", arial;
+	background:#0f6d39;
+	color:#fff;
+  font-weight:300;
+  width: auto;
+  height: 100%;
+}
+
+div#root {
+  height: 100%;
+}
+
+header {
+  min-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1{
+	font-family: "Open Sans", arial;
+	font-weight:300;
+	float: left;
+	width: 55%;
+	margin-left: 5px;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+h2{
+	margin:0px;
+	font-family: "Open Sans", arial;
+  font-weight:300;
+  font-size: 28px;
+}
+
+h3{
+	margin:3px;
+	font-family: "Open Sans", arial;
+  font-weight:300;
+  font-size: 20px;
+}
+
+section {
+  max-width: 750px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+} 
+
+div.Left {
+  max-width: 350px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.AppContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+	margin: 30px auto;
+  width: 1100px;
+  height: 100%;
+}
+
+.AppSpacer{
+	width:770px;
+	margin-right:  50px;
+	float:left;
+}
+.AppSpacer3x{
+	width:300px;
+}
+
+.AppRight{
+	text-align:right;
+  margin-top: 30px;
+  margin-right: 20px;;
+}
+
+.AppWide {
+  width: 262.75px;
+  height: 118.75px;
+  overflow: hidden;
+  color: white;
+  padding: 10px;
+  display: block;
+  float: left;
+  margin: 5px;
+  border: 1px;
+}
+
+h2.AppWide{
+	margin:5px;
+	font-family: "Open Sans", arial;
+	font-weight:300;
+}
+
+h2.AppBox{
+	margin:0px;
+	font-family: "Open Sans", arial;
+	font-weight:300;
+}
+
+.AppBox {
+  width: 118.75px;
+  height: 118.75px;
+  overflow: hidden;
+  font-size: 13px;
+  padding: 10px;
+  display: block;
+  float: left;
+  margin: 5px;
+  border: 1px;
+}
+
+button.AppBox {
+  width: 137.5px;
+  height: 137.5px;
+  overflow: hidden;
+  font-size: 13px;
+  padding: 10px;
+  display: block;
+  float: left;
+  margin: 5px;
+  color: white;
+}
+
+button.AppWide {
+  width: 275px;
+  height: 137.5px;
+  overflow: hidden;
+  font-size: 13px;
+  padding: 10px;
+  display: block;
+  float: left;
+  margin: 5px;
+}
+
+
+
+
