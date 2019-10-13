@@ -2,7 +2,7 @@
   "name": "week-10-tech-check",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pages.github.homedepot.com/wmf1n9r/week-10-tech-check",
+  "homepage": "https://williamfowlerthd.github.io/react-timer/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
