@@ -11,7 +11,8 @@ const box = {
   float: 'left',
   margin: '5px',
   background: '#dbb701',
-  color: 'white'
+  color: 'white',
+  borderWidth: '0px'
 };
 
 const MinusButton = ({ count, decreaseCount }) => {
