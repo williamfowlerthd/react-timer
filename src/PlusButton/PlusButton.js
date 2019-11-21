@@ -11,7 +11,8 @@ const box = {
   float: 'left',
   margin: '5px',
   background: '#e76022',
-  color: 'white'
+  color: 'white',
+  borderWidth: '0px'
 };
 
 const PlusButton = ({ count, increaseCount }) => {
